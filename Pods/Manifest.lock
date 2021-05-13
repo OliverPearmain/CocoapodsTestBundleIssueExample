@@ -1,0 +1,30 @@
+PODS:
+  - Mux-Stats-AVPlayer (2.2.0):
+    - Mux-Stats-Core (~> 3.2)
+  - Mux-Stats-Core (3.2.1)
+  - SomeModule (0.1.0):
+    - Mux-Stats-AVPlayer (= 2.2.0)
+  - SomeModule/Tests (0.1.0):
+    - Mux-Stats-AVPlayer (= 2.2.0)
+
+DEPENDENCIES:
+  - SomeModule (from `Modules/SomeModule`)
+  - SomeModule/Tests (from `Modules/SomeModule`)
+
+SPEC REPOS:
+  trunk:
+    - Mux-Stats-AVPlayer
+    - Mux-Stats-Core
+
+EXTERNAL SOURCES:
+  SomeModule:
+    :path: Modules/SomeModule
+
+SPEC CHECKSUMS:
+  Mux-Stats-AVPlayer: dae415200dda3c8b2e887cf12e7b6b8d14fbf8e6
+  Mux-Stats-Core: d704ed64f28256ed833a749c907d7d44a248b4f0
+  SomeModule: ee2a4ab8aca6a98cf5dda0c8a5704c6b9e1b9e56
+
+PODFILE CHECKSUM: f0fe38dbe13f95d19db3a901e49eb48ada6162fd
+
+COCOAPODS: 1.10.1
